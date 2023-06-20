@@ -2,12 +2,13 @@
 /**
  *_abs - check the code
  *
+ *@n: value to abstract
  * Return: abs value.
  */
 int _abs(int n)
 {
 	if (n < 0)
-		return(-n);
+		return (-n);
 	else
 		return (n);
 }
