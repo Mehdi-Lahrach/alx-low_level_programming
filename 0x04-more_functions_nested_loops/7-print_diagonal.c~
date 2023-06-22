@@ -1,0 +1,22 @@
+#include "main.h"
+
+/**
+ * print_diagonal - check the code
+ *@n: number of 
+ *
+ * Return: void.
+ */
+void print_diagonal(int n)
+{
+	while (n > 0)
+	{
+		_putchar(' ');
+		if (n == 1)
+		{
+			_putchar('\\');
+			break;
+		}
+		n--;
+	}
+	_putchar('\n');
+}
